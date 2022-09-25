@@ -5,9 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Project Introduction
 
 ### brief summary of program
-This project implements Figma designs on the web.
+This project implements three pages Figma designs on the web.
 ### proud part
 Code is readable.
+Clear README document.
 This project duplicates Figma designs on the web.
 Use date and time picker from MUI instead of react time picker can consistent more with the original UI style of Envited.
 Implementation of responsive design
