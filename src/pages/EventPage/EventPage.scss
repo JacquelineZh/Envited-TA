@@ -1,0 +1,77 @@
+// theme colors
+$primary-text-dark-purple:#240D57;
+$primary-text-purple: #501FC1;
+$primary-text-light-purple: #8456EC;
+$primary-text-pink: #E87BF8;
+$secondary-light-purple: #F6F2FF;
+$neutral-text-dark:#4F4F4F;
+$neutral-text-gray:#828282;
+
+
+.EventPageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:center;
+    .eventCover{
+        width: 100%;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 28px;
+        color: $primary-text-dark-purple;
+        padding-top:11px;
+    }
+    .eventHost{
+        color: $neutral-text-gray;
+    }
+    .eventDetailItem{
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between; 
+        .content{
+            width: 70%;
+            .contentTitle{
+                font-size: 16px;
+                color: $primary-text-dark-purple;
+            }
+            .contentSubTitle{
+                font-size: 14px;
+                color: $neutral-text-dark;
+            }
+            @media screen and (min-width: 768px) {
+                .contentTitle{
+                    font-size: 20px;
+                }
+                .contentSubTitle{
+                    font-size: 20px;
+                }
+            }
+        }
+    
+    }
+    @media screen and (min-width: 768px) {
+        padding: 0 20%;
+        .eventCover{
+            width: 593px;
+            margin: 80px auto;
+            border-radius: 10px;
+        }
+        h1{
+            font-size: 48px;
+        }
+        .eventHost{
+            font-size: 18px;
+        }
+        .contentTitle{
+            font-size: 18px;
+        }
+        .contentSubTitle{
+            font-size: 18px;
+        }
+    }
+}
+
+
+

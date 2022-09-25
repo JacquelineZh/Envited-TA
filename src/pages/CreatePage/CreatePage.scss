@@ -1,0 +1,42 @@
+// theme colors
+$primary-text-dark-purple:#240D57;
+$primary-text-purple: #501FC1;
+$primary-text-light-purple: #8456EC;
+$primary-text-pink: #E87BF8;
+$secondary-light-purple: #F6F2FF;
+$neutral-text-dark:#4F4F4F;
+
+.CreatePageContainer{
+    text-align: center;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    min-height: 100vh;
+    font-size: 16px;
+
+    h1{
+        color: $primary-text-dark-purple;
+        font-size: 36px;
+    }
+    .formInput{
+        border-radius: 10px;
+        height: 50px;
+        font-size: 20px;
+        border: none;
+        background-color: $secondary-light-purple;
+    }
+    .nextBtn{
+        margin: 20px auto;
+        font-size: 16px;
+        border-radius: 10px;
+        background-image: linear-gradient(to right, $primary-text-light-purple, $primary-text-pink);
+        color: white;
+        padding: 16px 21px;
+        border: none;
+        width: 187px;
+    }
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+    }
+}
